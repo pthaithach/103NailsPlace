@@ -1174,8 +1174,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 .page-section {
   position: relative;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   overflow: hidden;
 }
 
@@ -1283,12 +1283,12 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 #doctorSlideshow .owl-nav {
-  margin-top: 24px;
+  /*margin-top: 24px;*/
 }
 
 .card-doctor {
   display: block;
-  margin: 15px auto;
+  /*margin: 15px auto;*/
   width: 100%;
   max-width: 100%;
   background-color: rgba(255,255,255, 0.98);
@@ -1893,6 +1893,12 @@ a.phone-call:hover{
   border-radius: 40px 0 0 40px;
 }
 
+.service-mobile{
+  display: block;
+}
+.service-desktop{
+  display: none;
+}
 
 /*------------------- custome for Nails Place ----------------------*/
 .bg-orange{
@@ -2106,7 +2112,7 @@ footer .margin-bottom{
   font-weight: 400;
 }
 h2{
-  font-size: 2.5rem;
+  font-size: 2.0rem;
 }
 h1, h2 {
   font-weight: 700;
@@ -2255,7 +2261,9 @@ h1, h2 {
   color: #fff !important;
   margin: 5px;
 }
-
+.bg-light-grey{
+  background: #eee;
+}
 
 /*Responsive*/
 
@@ -2323,6 +2331,13 @@ h1, h2 {
 }
 
 @media (min-width: 768px) {
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  #doctorSlideshow .owl-nav {
+     margin-top: 24px;
+  }
   .navbar-expand-md .navbar-nav {
     margin-top: 0;
     border-top: none;
@@ -2384,6 +2399,10 @@ h1, h2 {
   }
   .card-doctor{
     max-width: 90%;
+    margin: 0 auto;
+  }
+  .specialties .card-doctor{
+    margin: 0 auto;
   }
 
 }
@@ -2424,6 +2443,12 @@ h1, h2 {
 
 
 @media (min-width: 1024px){
+  .service-mobile{
+    display: none;
+  }
+  .service-desktop{
+    display: block;
+  }
   .nav-item{
     margin: 20px 30px;
   }
