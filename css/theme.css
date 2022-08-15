@@ -2264,6 +2264,15 @@ h1, h2 {
 .bg-light-grey{
   background: #eee;
 }
+.call-now{
+  font-size: 15px;
+  display: block;
+}
+
+
+
+
+
 
 /*Responsive*/
 
@@ -2331,6 +2340,11 @@ h1, h2 {
 }
 
 @media (min-width: 768px) {
+  .btn-fanpage-big{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 24px;
+  }
   h2 {
     font-size: 2.5rem;
   }
@@ -2450,7 +2464,7 @@ h1, h2 {
     display: block;
   }
   .nav-item{
-    margin: 20px 30px;
+    margin: 20px 25px;
   }
   .circle-shape {
     width: 90px;             /* width: 40px;*/
